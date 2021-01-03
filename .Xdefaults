@@ -1,0 +1,11 @@
+URxvt.scrollBar:                false
+!cursor
+Xcursor.size: 16
+
+URxvt*scrollBar: false
+
+#URxvt*foreground: #ffffff
+
+#URxvt*depth: 32
+
+#URxvt*background: [70]#170f0d
