@@ -1,5 +1,5 @@
 | Package 	| Size		| Description		|
-| :---		|:---		|:---				|
+| :---		|:---		|:---			|
 |alsa-utils|2.08 MiB|Advanced Linux Sound Architecture - Utilities|
 |amd-ucode|0.04 MiB|Microcode update image for AMD CPUs|
 |apache|6.28 MiB|A high performance Unix-based HTTP server|
