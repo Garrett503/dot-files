@@ -1,7 +1,7 @@
 from SwSpotify import spotify
 import spotipy
 import spotipy.util as util
-from config import CLIENT_ID, CLIENT_SECRET, USERNAME, SCOPE, REDIRECT_URI, PLAYLIST_ID
+from config import CLIENT_ID, CLIENT_SECRET, USERNAME, SCOPE, REDIRECT_URI
 
 #Get token
 print("Retrieving user token...")
