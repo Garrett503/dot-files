@@ -18,6 +18,13 @@ TUR='\033[1;36m'
 WHT='\033[1;37m'
 DEF='\033[0m'
 # END OF COLORS #
+divider===================================================================
+divider=$divider$divider
+
+header="\n %6s %12s %14s %15s %18s %16s\n"
+#format=" %-10s %08d %10s %11.2f\n"
+
+width=90
 
 # GET OPTIONS #
 while getopts ":h:f:g:b:m:u:c:" OPTION
@@ -69,6 +76,9 @@ fi
 # END OF CHECK MAX TIME CONNECT#
 
 # CHECK PROXY #
+printf "$header" "IP" "PORT" "USER:PASS" "STATUS" "LOCATION" "SPEED"
+printf "%$width.${width}s\n" "$divider"
+
 for PROXY in $(<$PROXYS)
 do  
   if [[ "${PROXY:0:1}" != "#" ]]
@@ -107,9 +117,9 @@ do
   		
   	fi
   	# END OF PROXY TYPE #
-    
+
     echo -ne "$IP\t$PORT\t$USER\t$PASS\t[$PROXY_TYPE] "
-    
+
     if [[ $USER && $PASS ]]
     then
       GEOIP=$(curl -s -m $MAX_CONNECT $PROXY_TYPE_COMMAND$IP:$PORT -U $USER:$PASS $CHECK_GEOIP_URL$IP)
@@ -118,7 +128,7 @@ do
       GEOIP=$(curl -s -m $MAX_CONNECT $PROXY_TYPE_COMMAND$IP:$PORT $CHECK_GEOIP_URL$IP)
       CHECK=$?
     fi
-    
+
     if [[ $CHECK -eq 0 ]]
     then
       echo -ne $GRN"good"$DEF" "$(echo $GEOIP | awk -F, '{print $3}' | awk -F: '{print $2}' | cut -d '"' -f 2)""
