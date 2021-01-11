@@ -1,5 +1,5 @@
 CLIENT_ID="60396783d58141c1be54f248669b9994" #Get from spotify dev website
-CLIENT_SECRET="55e4a8de07a74bbabfa5e97ebc5345b5" #Get from spotify dev website
+CLIENT_SECRET="ed23aea563f9455bacebd4ef1aaa105b" #Get from spotify dev website
 USERNAME="garrettrocky" #Your spotify username
 SCOPE="user-library-modify user-library-read,user-read-currently-playing,user-read-playback-position,user-read-playback-state,user-modify-playback-state,app-remote-control,streaming,playlist-read-private,playlist-modify-private,playlist-modify-public" #Use "playlist-modify-public" for public playlists and "playlist-modify-private" for private ones
 REDIRECT_URI="http://localhost:8888/callback" #This is what I use but not the only option

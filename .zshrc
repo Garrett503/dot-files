@@ -113,12 +113,15 @@ alias randomp="openssl rand -base64 29 | tr -d '=+/' | cut -c1-25"
 alias myip="curl ipinfo.io/ip"
 alias githelp="feh ~/Notes/githelp.png"
 alias githelp2="google-chrome-stable 'https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6'"
-alias proxc="nano proxy.txt"
-alias proxr="./proxy-tester.sh"
+#alias proxc="nano proxy.txt"
+#alias proxr="./proxy-tester.sh"
 alias via="/opt/VIA/via %U --no-sandbox &; exit"
 alias youtubei="youtube-dl -F"
 alias youtubed="youtube-dl -f"
 alias dot='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
+alias dotls="dot ls-tree --full-tree -r --name-only HEAD"
+alias proxc="nano ~/Scripts/proxy.txt"
+alias proxr="./proxy-tester.sh"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
