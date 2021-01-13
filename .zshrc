@@ -122,6 +122,12 @@ alias dot='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 alias dotls="dot ls-tree --full-tree -r --name-only HEAD"
 alias proxc="nano ~/Scripts/proxy.txt"
 alias proxr="./proxy-tester.sh"
+alias vs1="feh ~/Notes/vscode/sc1.png"
+
+#git
+alias gitrc="git rm -r --cached"
+alias gitrm="git rm -r"
+alias gita="git add"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
