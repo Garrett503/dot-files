@@ -87,8 +87,8 @@ assign [class="qBittorrent"] $ws8                                       #ws8 - q
 #Left Monitor
 assign [class="Code"] $ws12 				                #ws12 - VSCode
 #Floating
-#chrome pop-up floating inspect element
-#for_window [class="Google-chrome" window_role="pop-up"] floating enable, resize set 1500 1000
+#move dev tools to left monitor
+for_window [class="Google-chrome" window_role="pop-up"] floating enable, resize set 1300 1700, move to workspace $ws12 
 #i3 window border
 for_window [class="^.*"] border pixel 0
 for_window [class="kitty"] border pixel 1
