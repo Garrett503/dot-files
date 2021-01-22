@@ -36,7 +36,6 @@ esac
 
 hackspeed_cache="$(mktemp -p '' hackspeed_cache.XXXXX)"
 trap 'rm "$hackspeed_cache"' EXIT
-
 # Write a dot to our cache for each key press
 printf '' > "$hackspeed_cache"
 xinput test "$KEYBOARD_ID" | \
@@ -58,6 +57,5 @@ while true; do
 	value=$((lines * multiply_by / divide_by))
 
 	printf "$FORMAT\\n" "$value"
-
 	sleep $INTERVAL
 done
