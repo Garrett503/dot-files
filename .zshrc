@@ -75,59 +75,66 @@ HIST_STAMPS="mm/dd/yyyy"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-	git 
+	git
 	zsh_reload
 	colored-man-pages
-	zsh-autosuggestions 
+	zsh-autosuggestions
 	zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
 
-# User configuration
-#########
-#CUSTOM
-#########
 HISTSIZE=20000
 SAVEHIST=20000
 
-
+#    _    _ _
+#   / \  | (_) __ _ ___
+#  / _ \ | | |/ _` / __|
+# / ___ \| | | (_| \__ \
+#/_/   \_\_|_|\__,_|___/
+##########################
 #reload
 alias rzsh="src"
+#lsd
 alias l='lsd -a'
 alias la='lsd -la'
 alias lr='lsd -lR'
-
+alias c="clear"
+#config files
 alias i3c="nano ~/.config/i3/config"
 alias picomc="nano ~/.config/picom/picom.conf"
 alias polyc="cd ~/.config/polybar"
 alias zshc="nano ~/.zshrc"
 alias kittyc="nano ~/.config/kitty/kitty.conf"
-alias c="clear"
-alias devrestart="sudo systemctl restart httpd.service"
-alias newscript="~/Scripts/autoscript.sh"
-alias sshdev="~/Scripts/ssh-menu.sh"
-alias lamp="~/Scripts/lamp-menu.sh"
-alias humans="du -sh *"
+#idk
+alias newsh="~/Scripts/autoscript.sh"
 alias randomp="openssl rand -base64 29 | tr -d '=+/' | cut -c1-25"
 alias myip="curl ipinfo.io/ip"
-alias githelp="feh ~/Notes/githelp.png"
-alias githelp2="google-chrome-stable 'https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6'"
-#alias proxc="nano proxy.txt"
-#alias proxr="./proxy-tester.sh"
 alias via="/opt/VIA/via %U --no-sandbox &; exit"
 alias youtubei="youtube-dl -F"
 alias youtubed="youtube-dl -f"
-alias dot='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
-alias dotls="dot ls-tree --full-tree -r --name-only HEAD"
-alias proxc="nano ~/Scripts/proxy.txt"
-alias proxr="./proxy-tester.sh"
-alias vs1="feh ~/Notes/vscode/sc1.png"
-
+#dev
+alias proxc="nano ~/Scripts/dev/proxy.txt"
+alias proxr="./Scripts/dev/proxy-tester.sh"
+alias vshort="image ~/Notes/vscode/sc1.png"
+alias sshdev="~/Scripts/dev/ssh-menu.sh"
+alias lamp="~/Scripts/dev/lamp-menu.sh"
+#i3ipc
+alias image="~/.config/i3/i3ipc/image_view.py qimgv"
 #git
+alias gits="git status"
 alias gitrc="git rm -r --cached"
 alias gitrm="git rm -r"
 alias gita="git add"
+#dot files git
+alias dot='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
+alias dotls="dot ls-tree --full-tree -r --name-only HEAD"
+alias dotrc="dot rm -r --cached"
+alias dotrm="dot rm -r"
+alias dota="dot add"
+alias dots="dot status"
+
+
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment

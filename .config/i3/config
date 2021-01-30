@@ -116,7 +116,7 @@ bindsym $mod+Home exec flameshot gui                                    #flamesh
 #       |___/
 ############################################################
 # Set colors from Xresources
-# Change 'color7' and 'color2' to whatever colors you want i3 to use 
+# Change 'color7' and 'color2' to whatever colors you want i3 to use
 # from the generated scheme.
 # NOTE: The '#f0f0f0' in the lines below is the color i3 will use if
 # it fails to get colors from Xresources.
@@ -166,8 +166,8 @@ bindsym $playprev 	exec playerctl --player=spotify previous
 bindsym $mod+p exec $scripts/polybar-launch.sh  #polybar refresh
 bindsym $mod+Return exec $terminal
 bindsym $mod+Shift+q kill
-bindsym $mod+h split h                          
-bindsym $mod+v split v                          
+bindsym $mod+h split h
+bindsym $mod+v split v
 bindsym $mod+f fullscreen toggle ;
 #enter fullscreen mode for the focused container
 # Use Mouse+$mod to drag floating windows to their wanted position
