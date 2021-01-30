@@ -50,6 +50,7 @@ $exa    picom 	                                          #picom
 $ex     $scripts/theme_scripts/changetheme.sh 		  #change theme
 $exa	dunst 						  #notifications
 $ex 	$scripts/monitors.sh				  #Left monitor vertical - set primary 144hz
+$ex	python3 ~/.config/i3/i3ipc/alternating_layout.py  #i3 layout
 
 #__        ______    ____  _             _
 #\ \      / / ___|  / ___|| |_ __ _ _ __| |_ _   _ _ __
