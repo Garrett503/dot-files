@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #random wallpaper
-wal -i ~/Pictures/Wallpapers2/;
+wal -i ~/Wallpapers/;
 #update cava
 cp $HOME/.cache/wal/cava.config $HOME/.config/cava/config; 
 pkill -USR2 cava;
