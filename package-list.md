@@ -1,4 +1,5 @@
-
+| Package | Size| Description |
+| --- | --- |--- |
 |apache|6.28 MiB|A high performance Unix-based HTTP server|
 |arandr|0.28 MiB|Provide a simple visual front end for XRandR 1.2.|
 |ark|4.07 MiB|Archiving Tool|
