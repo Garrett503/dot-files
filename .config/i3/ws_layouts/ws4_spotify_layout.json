@@ -1,0 +1,80 @@
+// vim:ts=4:sw=4:et
+{
+    // floating_con with 1 children
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splith",
+    "marks": [],
+    "percent": null,
+    "rect": {
+       "height": 277,
+       "width": 1920,
+       "x": 2560,
+       "y": 1025
+    },
+    "type": "floating_con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 0,
+            "floating": "user_on",
+            "geometry": {
+               "height": 316,
+               "width": 484,
+               "x": 0,
+               "y": 0
+            },
+            "marks": [],
+            "name": "cava",
+            "percent": 1,
+            "swallows": [
+               {
+               "class": "^URxvt$",
+               "instance": "^cavaspot$"
+               // "title": "^cava$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
+// {
+//     // floating_con with 1 children
+//     "border": "normal",
+//     "floating": "auto_off",
+//     "layout": "splith",
+//     "marks": [],
+//     "percent": null,
+//     "rect": {
+//        "height": 705,
+//        "width": 1184,
+//        "x": 2904,
+//        "y": 335
+//     },
+//     "type": "floating_con",
+//     "nodes": [
+//         {
+//             "border": "pixel",
+//             "current_border_width": 0,
+//             "floating": "user_on",
+//             "geometry": {
+//                "height": 600,
+//                "width": 800,
+//                "x": 0,
+//                "y": 0
+//             },
+//             "marks": [],
+//             "name": "Skeler - AVA",
+//             "percent": 1,
+//             "swallows": [
+//                {
+//                "class": "^Spotify$",
+//                "instance": "^spotify$"
+//                }
+//             ],
+//             "type": "con"
+//         }
+//     ]
+// }
+
