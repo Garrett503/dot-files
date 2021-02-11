@@ -126,6 +126,7 @@ alias gits="git status"
 alias gitrc="git rm -r --cached"
 alias gitrm="git rm -r"
 alias gita="git add"
+alias gitstats="git quick-stats"
 #dot files git
 alias dot='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 alias dotls="dot ls-tree --full-tree -r --name-only HEAD"
@@ -133,7 +134,8 @@ alias dotrc="dot rm -r --cached"
 alias dotrm="dot rm -r"
 alias dota="dot add"
 alias dots="dot status"
-
+#pi
+alias sshpi="ssh pi@10.0.0.192"
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
