@@ -95,6 +95,7 @@ SAVEHIST=20000
 ##########################
 #reload
 alias rzsh="src"
+alias pack20="expac --timefmt='%Y-%m-%d %T' '%l\t%n' | sort | tail -n 20"
 #lsd
 alias l='lsd -a'
 alias la='lsd -la'
@@ -113,6 +114,8 @@ alias myip="curl ipinfo.io/ip"
 alias via="/opt/VIA/via %U --no-sandbox &; exit"
 alias youtubei="youtube-dl -F"
 alias youtubed="youtube-dl -f"
+alias sqlg="mysql -u garrett -p"
+alias noteq="sudo notepadqq --allow-root"
 #dev
 alias proxc="nano ~/Scripts/dev/proxy.txt"
 alias proxr="./Scripts/dev/proxy-tester.sh"

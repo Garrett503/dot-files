@@ -2,7 +2,7 @@
 # LAMP menu...im a n00b
 
 PS3='What option?: '
-options=("httpd start" "httpd restart" "httpd status" "httpd stop" "httpd conf - vhosts" "php conf" "mariadb start" "mariadb restart" "mariadb status" "mariadb stop" "Quit")
+options=("httpd start" "httpd restart" "httpd status" "httpd stop" "httpd conf - vhosts" "vhosts - hosts" "php conf" "mariadb start" "mariadb restart" "mariadb status" "mariadb stop" "Quit")
 select opt in "${options[@]}"
 do
     case $opt in
@@ -29,10 +29,16 @@ do
             ;;
         "httpd conf - vhosts")
             echo "navigating to vhosts..."
-            cd /etc/httpd
+            cd /etc/httpd/conf/vhosts
             $SHELL
             break
             ;;
+        "vhosts - hosts")
+            echo "navigating to hosts..."
+            sudo nano /etc/hosts
+            $SHELL                                                                                               
+            break                                                                                                
+            ;;  
         "php conf")
             echo "navigating to php..."
             cd /etc/php
@@ -42,22 +48,22 @@ do
         #mariadb
         "mariadb start")
             echo "Starting..."
-            systemctl start mariadb.service
+            systemctl start mariadb
             break           
             ;;
         "mariadb restart")
             echo "Restarting..."
-            systemctl restart mariadb.service
+            systemctl restart mariadb
             break
             ;;
         "mariadb status")
             echo "Checking Status..."
-            systemctl status mariadb.service
+            systemctl status mariadb
             break
             ;;
         "mariadb stop")
             echo "Stopping..."
-            systemctl stop mariadb.service
+            systemctl stop mariadb
             break
             ;;
          "Quit")
