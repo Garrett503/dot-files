@@ -95,7 +95,7 @@ SAVEHIST=20000
 ##########################
 #reload
 alias rzsh="src"
-alias pack20="expac --timefmt='%Y-%m-%d %T' '%l\t%n' | sort | tail -n 20"
+alias pack="expac --timefmt='%Y-%m-%d %T' '%l\t%n' | sort | tail -n"
 #lsd
 alias l='lsd -a'
 alias la='lsd -la'
