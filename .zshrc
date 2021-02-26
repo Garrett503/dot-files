@@ -84,8 +84,8 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
-HISTSIZE=20000
-SAVEHIST=20000
+HISTSIZE=50000
+SAVEHIST=50000
 
 #    _    _ _
 #   / \  | (_) __ _ ___
