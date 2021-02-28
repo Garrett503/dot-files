@@ -32,4 +32,4 @@ sed -i "s/foreground = .*/foreground = \"$kolor04\"/g" ~/.config/dunst/dunstrc
 sed -i "s/frame_color = .*/frame_color = \"$kolor04\"/g" ~/.config/dunst/dunstrc
 
 pkill dunst
-dunst &
+dunst -print &

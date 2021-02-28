@@ -13,7 +13,7 @@ spicetify watch --live-update &
 #update discord theme
 ~/Scripts/theme_scripts/pywal-discord -t maindiscord
 #update dunst colors
-~/Scripts/theme_scripts/dunstpywal.sh;
+~/Scripts/theme_scripts/dunst_pywal.sh;
 #theme changed notification
 sleep 1
 ~/Scripts/theme_scripts/theme_change_success.sh;
