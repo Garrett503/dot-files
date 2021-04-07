@@ -1,0 +1,175 @@
+// vim:ts=4:sw=4:et
+{
+    // splith split container with 2 children
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splith",
+    "marks": [],
+    "percent": 0.333333333333333,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 0,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 2532,
+               "width": 500,
+               "x": 482,
+               "y": 14
+            },
+            "marks": [],
+            "name": "53,162.58 | BTCUSDT | Binance Spot - Google Chrome",
+            "percent": 0.5,
+            "swallows": [
+               {
+                "class": "^one$"
+               // "instance": "^google\\-chrome\\-unstable\\ \\(\\/home\\/garrett\\/\\.config\\/google\\-unstable\\/Profile\\ 7\\)$",
+               // "title": "^53\\,162\\.58\\ \\|\\ BTCUSDT\\ \\|\\ Binance\\ Spot\\ \\-\\ Google\\ Chrome$",
+               // "window_role": "^browser$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "pixel",
+            "current_border_width": 0,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 624,
+               "width": 1412,
+               "x": 36,
+               "y": 166
+            },
+            "marks": [],
+            "name": "53,162.58 | BTCUSDT | Binance Spot - Google Chrome",
+            "percent": 0.5,
+            "swallows": [
+               {
+                "class": "^two$"
+               // "instance": "^google\\-chrome\\-unstable\\ \\(\\/home\\/garrett\\/\\.config\\/google\\-unstable\\/Profile\\ 7\\)$",
+               // "title": "^53\\,162\\.58\\ \\|\\ BTCUSDT\\ \\|\\ Binance\\ Spot\\ \\-\\ Google\\ Chrome$",
+               // "window_role": "^browser$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
+{
+    // splith split container with 2 children
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splith",
+    "marks": [],
+    "percent": 0.333333333333333,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 0,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 2532,
+               "width": 500,
+               "x": 1154,
+               "y": 14
+            },
+            "marks": [],
+            "name": "Cryptocurrency Prices, Charts And Market Capitalizations | CoinMarketCap - Google Chrome",
+            "percent": 0.5,
+            "swallows": [
+               {
+                "class": "^three$"
+               // "instance": "^google\\-chrome\\-unstable\\ \\(\\/home\\/garrett\\/\\.config\\/google\\-unstable\\/Profile\\ 6\\)$",
+               // "title": "^Cryptocurrency\\ Prices\\,\\ Charts\\ And\\ Market\\ Capitalizations\\ \\|\\ CoinMarketCap\\ \\-\\ Google\\ Chrome$",
+               // "window_role": "^browser$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "pixel",
+            "current_border_width": 0,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 636,
+               "width": 1412,
+               "x": 73,
+               "y": 768
+            },
+            "marks": [],
+            "name": "Cryptocurrency Prices, Charts And Market Capitalizations | CoinMarketCap - Google Chrome",
+            "percent": 0.5,
+            "swallows": [
+               {
+               "class": "^four$"
+               // "instance": "^google\\-chrome\\-unstable\\ \\(\\/home\\/garrett\\/\\.config\\/google\\-unstable\\/Profile\\ 6\\)$",
+               // "title": "^Cryptocurrency\\ Prices\\,\\ Charts\\ And\\ Market\\ Capitalizations\\ \\|\\ CoinMarketCap\\ \\-\\ Google\\ Chrome$",
+               // "window_role": "^browser$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
+{
+    // splith split container with 2 children
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splith",
+    "marks": [],
+    "percent": 0.333333333333333,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 0,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 2532,
+               "width": 500,
+               "x": 1202,
+               "y": 14
+            },
+            "marks": [],
+            "name": "Cryptocurrency Prices, Charts And Market Capitalizations | CoinMarketCap - Google Chrome",
+            "percent": 0.5,
+            "swallows": [
+               {
+                "class": "^five$"
+               // "instance": "^google\\-chrome\\-unstable\\ \\(\\/home\\/garrett\\/\\.config\\/google\\-unstable\\/Profile\\ 1\\)$",
+               // "title": "^Cryptocurrency\\ Prices\\,\\ Charts\\ And\\ Market\\ Capitalizations\\ \\|\\ CoinMarketCap\\ \\-\\ Google\\ Chrome$",
+               // "window_role": "^browser$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "pixel",
+            "current_border_width": 0,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 624,
+               "width": 1412,
+               "x": 69,
+               "y": 2052
+            },
+            "marks": [],
+            "name": "Cryptocurrency Prices, Charts And Market Capitalizations | CoinMarketCap - Google Chrome",
+            "percent": 0.5,
+            "swallows": [
+               {
+                "class": "^six$"
+               // "instance": "^google\\-chrome\\-unstable\\ \\(\\/home\\/garrett\\/\\.config\\/google\\-unstable\\/Profile\\ 9\\)$",
+               // "title": "^Cryptocurrency\\ Prices\\,\\ Charts\\ And\\ Market\\ Capitalizations\\ \\|\\ CoinMarketCap\\ \\-\\ Google\\ Chrome$",
+               // "window_role": "^browser$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+

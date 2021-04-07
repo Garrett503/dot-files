@@ -46,9 +46,9 @@ set 	$stop       	XF86AudioStop
 #/_/   \_\__,_|\__\___/|___/\__\__,_|_|   \__|
 #Main autostart
 $exa	$scripts/polybar-launch.sh 			  #polybar
+$exa 	dunst						  #dunst
 $exa    picom 	                                          #picom
 $ex     $scripts/theme_scripts/changetheme.sh 		  #change theme
-$exa	dunst						  #notifications
 $ex 	$scripts/monitors.sh				  #Left monitor vertical - set primary 144hz
 $ex	python3 ~/.config/i3/i3ipc/alternating_layout.py  #i3 layout
 
@@ -64,13 +64,13 @@ $ex     google-chrome-stable 			#ws1 - Primary - Chrome
 $ex	$ws_scripts/ws2_terminal_layout.sh 	#ws2 - Primary - Terminals
 $ex     $ws_scripts/ws3_messaging_layout.sh 	#ws3 - Primary - Discord, skype and mailspring
 $ex	$ws_scripts/ws4_spotify_layout.sh 	#ws4 - Primary - Spotify, cava
-$ex	$ws_scripts/ws5_devbrowsers_layout.sh	#ws5 - Primary - Dev browsers, Firefox, Chrome
-$ex     $ws_scripts/ws6_system_layout.sh 	#ws6 - Primary - htop,ytop,ranger
+#$ex	$ws_scripts/ws5_devbrowsers_layout.sh	#ws5 - Primary - Dev browsers, Firefox, Chrome
+#$ex    $ws_scripts/ws6_system_layout.sh 	#ws6 - Primary - htop,ytop,ranger
 
 #Left Monitor
 #$ex	$ws_scripts/ws11_browsers_layout.sh	#ws11/ws1 - Left monitor - 4 browsers
-$ex     code 				        #ws12/ws2 - Left monitor - VSCode
-$ex     $ws_scripts/ws13_filemanagers_layout.sh #ws13/ws3 - Left monitor - dolphin - filezilla
+$ex    code 				        #ws12/ws2 - Left monitor - VSCode
+#$ex    $ws_scripts/ws13_filemanagers_layout.sh #ws13/ws3 - Left monitor - dolphin - filezilla
 
 #__        ___           _                 ____        _
 #\ \      / (_)_ __   __| | _____      __ |  _ \ _   _| | ___  ___
@@ -86,7 +86,7 @@ assign [class="Google-chrome"] $ws1                                     #ws1 - C
 for_window [class="Spotify" instance="spotify"] floating enable, move to workspace $ws4, resize set 1100 700, move position center, move up  95 px #ws4 - Spotify
 assign [instance="cavaspotify"] $ws4					#ws4 - cava
 for_window [class="firefoxdeveloperedition"] move to workspace $ws5     #ws5 - Direfox developer
-for_window [class="Google-chrome-unstable"] move to workspace $ws5      #ws5 - Chrome developer
+#for_window [class="Google-chrome-unstable"] move to workspace $ws5     #ws5 - Chrome developer
 assign [class="vlc"] $ws8                                               #ws8 - VLC
 assign [class="qBittorrent"] $ws8                                       #ws8 - qBittorrent
 
@@ -106,7 +106,7 @@ for_window [class="URxvt"] border pixel 0
 #                             |___/
 #############################################################
 bindsym $mod+c exec $theme_scripts/changetheme.sh                       #change wallpaper - clear cache -load new wal refresh firefox
-bindsym $mod+shift+x  exec ~/.config/rofi/rofiscript.sh                 #rofi
+bindsym $mod+x exec ~/.config/rofi/launchers/ribbon/launcher.sh		#rofi
 bindsym $mod+Home exec flameshot gui                                    #flameshot
 
 # ____                      _    ____      _
@@ -162,8 +162,6 @@ bindsym $playprev 	exec playerctl --player=spotify previous
 #| |_) | | | | | (_| \__ \
 #|____/|_|_| |_|\__,_|___/
 ###########################
-
-
 bindsym $mod+p exec $scripts/polybar-launch.sh  #polybar refresh
 bindsym $mod+Return exec $terminal
 bindsym $mod+Shift+q kill
@@ -354,8 +352,8 @@ bindsym $mod+shift+mod1+3 move container to workspace $ws13
 #|_|____/|_.__/ \__,_|_|
 ##########################
 #bar {
-#      status_command i3status
-#     font pango:Hack Nerd Font 14
+#    status_command i3status
+#    font pango:Hack Nerd Font 14
 #    strip_workspace_numbers yes
 #}
 
@@ -372,8 +370,8 @@ workspace $ws2  gaps outer -80
 #i3-gaps settings
 gaps inner 30
 gaps outer 30
-
-bindsym $mod+Prior        gaps inner current set 5; gaps outer current set 10
+#toggle gap size
+bindsym $mod+Prior    gaps inner current set 5; gaps outer current set 10
 bindsym $mod+Next     gaps inner current set 30; gaps outer current set 30
 #gaps inner 23
 #gaps outer -23
@@ -413,6 +411,7 @@ bindsym $mod+Next     gaps inner current set 30; gaps outer current set 30
 $ex i3-msg workspace "1:  Primary Home"
 $ex i3-msg workspace "12:  vscode"
 
+#ignore
 # was wondering if there was a way to set a "default" boot/startup workspace? In my case, $workspace1.
 #
 #assign [class="Firefox"] $workspace1
