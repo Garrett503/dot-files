@@ -1,0 +1,20 @@
+[module/bspwm]
+type = internal/bspwm
+
+label-focused = %name%
+label-focused-underline= ${colors.primary}
+label-focused-padding = 1
+
+label-occupied = %name%
+label-occupied-padding = 1
+
+label-urgent = %name%!
+label-urgent-background = ${colors.alert}
+label-urgent-padding = 1
+
+label-empty = %name%
+label-empty-foreground = ${colors.foreground-alt}
+label-empty-padding = 1
+
+; Separator in between workspaces
+label-separator = " "
