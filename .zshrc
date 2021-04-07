@@ -80,12 +80,20 @@ plugins=(
 	colored-man-pages
 	zsh-autosuggestions
 	zsh-syntax-highlighting
+	calculator
+	gulp
+	history
+	web-search
+)
+
+ZSH_WEB_SEARCH_ENGINES=(
+cmc "https://coinmarketcap.com/"
 )
 
 source $ZSH/oh-my-zsh.sh
 
-HISTSIZE=50000
-SAVEHIST=50000
+HISTSIZE=100000
+SAVEHIST=100000
 
 #    _    _ _
 #   / \  | (_) __ _ ___
@@ -93,8 +101,9 @@ SAVEHIST=50000
 # / ___ \| | | (_| \__ \
 #/_/   \_\_|_|\__,_|___/
 ##########################
-#reload
+#reload zsh
 alias rzsh="src"
+#list last x amount of packages installed - "pack 25" lists last 25 packages installed.
 alias pack="expac --timefmt='%Y-%m-%d %T' '%l\t%n' | sort | tail -n"
 #lsd
 alias l='lsd -a'
@@ -107,7 +116,7 @@ alias picomc="nano ~/.config/picom/picom.conf"
 alias polyc="cd ~/.config/polybar"
 alias zshc="nano ~/.zshrc"
 alias kittyc="nano ~/.config/kitty/kitty.conf"
-#idk
+#i will never use these
 alias javas="archlinux-java status"
 alias javathink="sudo archlinux-java set java-8-openjdk/jre"
 alias javadefault="sudo archlinux-java set java-11-openjdk"
@@ -133,8 +142,8 @@ alias gitrc="git rm -r --cached"
 alias gitrm="git rm -r"
 alias gita="git add"
 alias gitstats="git quick-stats"
-#dot files git
-alias dot='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
+#git dot files
+alias dot='git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 alias dotls="dot ls-tree --full-tree -r --name-only HEAD"
 alias dotrc="dot rm -r --cached"
 alias dotrm="dot rm -r"
