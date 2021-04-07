@@ -1,6 +1,0 @@
-[module/xwindow]
-type = internal/xwindow
-label = %title:0:30:...%
-label-font = 2
-label-background = ${colors.transparent}
-label-foreground = ${colors.background}
