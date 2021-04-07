@@ -1,3 +1,4 @@
+#!/bin/bash
 
 morning="Good Morning , Garrett !"
 afternoon="Good Afternoon , Garrett !"
