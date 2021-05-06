@@ -10,7 +10,7 @@
        "height": 277,
        "width": 1920,
        "x": 2560,
-       "y": 1025
+       "y": 1026
     },
     "type": "floating_con",
     "nodes": [
@@ -39,42 +39,43 @@
     ]
 }
 
-// {
-//     // floating_con with 1 children
-//     "border": "normal",
-//     "floating": "auto_off",
-//     "layout": "splith",
-//     "marks": [],
-//     "percent": null,
-//     "rect": {
-//        "height": 705,
-//        "width": 1184,
-//        "x": 2904,
-//        "y": 335
-//     },
-//     "type": "floating_con",
-//     "nodes": [
-//         {
-//             "border": "pixel",
-//             "current_border_width": 0,
-//             "floating": "user_on",
-//             "geometry": {
-//                "height": 600,
-//                "width": 800,
-//                "x": 0,
-//                "y": 0
-//             },
-//             "marks": [],
-//             "name": "Skeler - AVA",
-//             "percent": 1,
-//             "swallows": [
-//                {
-//                "class": "^Spotify$",
-//                "instance": "^spotify$"
-//                }
-//             ],
-//             "type": "con"
-//         }
-//     ]
-// }
+{
+    // floating_con with 1 children
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splith",
+    "marks": [],
+    "percent": null,
+    "rect": {
+       "height": 700,
+       "width": 1364,
+       "x": 2834,
+       "y": 326
+    },
+    "type": "floating_con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 0,
+            "floating": "user_on",
+            "geometry": {
+               "height": 600,
+               "width": 800,
+               "x": 0,
+               "y": 0
+            },
+            "marks": [],
+            "name": "Aether - Dear Lillie",
+            "percent": 1,
+            "swallows": [
+               {
+               "class": "^Spotify$"
+               // "instance": "^spotify$",
+               // "title": "^Aether\\ \\-\\ Dear\\ Lillie$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
 
