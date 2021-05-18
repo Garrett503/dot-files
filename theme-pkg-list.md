@@ -27,3 +27,6 @@
 |ttf-iosevka|143.41 MiB|Typeface family designed for coding, terminal use and technical documents.|
 |zsh|6.22 MiB|A very advanced and programmable command interpreter (shell) for UNIX|
 |zsh-theme-powerlevel10k-git|4.36 MiB|Powerlevel10k is a theme for Zsh. It emphasizes speed, flexibility and out-of-the-box experience.|
+|xdotool|0.17 MiB|Command-line X11 automation tool|
+|gsimplecal|0.05 MiB|Simple and lightweight GTK calendar|
+|gsimplecal|0.05 MiB|Simple and lightweight GTK calendar|
