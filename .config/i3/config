@@ -55,7 +55,7 @@ $ex     $scripts/theme_scripts/changetheme.sh 		  #change theme
 $ex 	$scripts/monitors.sh				  #Left monitor vertical - set primary 144hz
 $ex	python3 ~/.config/i3/i3ipc/alternating_layout.py  #i3 layout
 $ex	kmix                                              #kmix audio tray
-
+$exa 	copyq						  #copyq tray
 #__        ______    ____  _             _
 #\ \      / / ___|  / ___|| |_ __ _ _ __| |_ _   _ _ __
 # \ \ /\ / /\___ \  \___ \| __/ _` | '__| __| | | | '_ \
@@ -70,10 +70,9 @@ $ex     $ws_scripts/ws3_messaging_layout.sh 	#ws3 - Primary - Discord, skype and
 $ex	$ws_scripts/ws4_spotify_layout.sh 	#ws4 - Primary - Spotify, cava
 #$ex	$ws_scripts/ws5_devbrowsers_layout.sh	#ws5 - Primary - Dev browsers, Firefox, Chrome
 #$ex    $ws_scripts/ws6_system_layout.sh 	#ws6 - Primary - htop,ytop,ranger
-
 #Left Monitor
 #$ex	$ws_scripts/ws11_browsers_layout.sh	#ws11/ws1 - Left monitor - 4 browsers
-$ex    code 				        #ws12/ws2 - Left monitor - VSCode
+#$ex    code 				        #ws12/ws2 - Left monitor - VSCode
 #$ex    $ws_scripts/ws13_filemanagers_layout.sh #ws13/ws3 - Left monitor - dolphin - filezilla
 
 # ____            _       _     ____  _           _
