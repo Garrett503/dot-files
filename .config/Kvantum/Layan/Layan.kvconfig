@@ -71,6 +71,7 @@ intensity=1.00
 saturation=1.00
 click_behavior=0
 shadowless_popup=false
+drag_from_buttons=false
 
 [GeneralColors]
 window.color=#31313A
@@ -116,6 +117,8 @@ middle_click_scroll=false
 opaque_colors=false
 scroll_jump_workaround=true
 kinetic_scrolling=true
+centered_forms=false
+noninteger_translucency=false
 
 [PanelButtonCommand]
 frame=true

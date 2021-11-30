@@ -87,6 +87,7 @@ bindsym $mod+c exec $theme_scripts/changetheme.sh                       #change 
 bindsym $mod+x exec ~/.config/rofi/launchers/ribbon/launcher.sh		#rofi
 bindsym $mod+Print exec flameshot gui                                   #flameshot
 bindsym $mod+Shift+d exec dolphin					#dolphin
+bindsym $mod+Shift+v  exec copyq show					#copyq
 #__        ___           _                 ____        _
 #\ \      / (_)_ __   __| | _____      __ |  _ \ _   _| | ___  ___
 # \ \ /\ / /| | '_ \ / _` |/ _ \ \ /\ / / | |_) | | | | |/ _ \/ __|
@@ -109,7 +110,7 @@ assign [class="jetbrains-phpstorm"] $ws12				#ws12 - phpstorm
 
 # Floating #
 for_window [class="Google-chrome" window_role="pop-up"] floating enable, resize set 1300 1700, move to workspace $ws12 #auto move dev tools to left monitor
-
+for_window [class="copyq"] floating enable$session
 # i3 window border #
 for_window [class="^.*"] border pixel 0
 for_window [class="kitty"] border pixel 1

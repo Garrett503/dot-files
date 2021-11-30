@@ -9,7 +9,7 @@ pkill -USR2 cava;
 cp $HOME/.cache/wal/colors.Xresources $HOME/.Xresources;
 xrdb -merge ~/.Xresources;
 #live update spotify colors
-spicetify watch --live-update &
+#spicetify watch --live-update &
 #update discord theme
 ~/Scripts/theme_scripts/pywal-discord -t maindiscord
 #update dunst colors

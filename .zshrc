@@ -76,7 +76,7 @@ HIST_STAMPS="mm/dd/yyyy"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
 	git
-	zsh_reload
+	#zsh_reload
 	colored-man-pages
 	zsh-autosuggestions
 	zsh-syntax-highlighting
@@ -102,6 +102,7 @@ SAVEHIST=100000
 #/_/   \_\_|_|\__,_|___/
 ##########################
 #reload zsh
+alias reloadzsh='omz reload'
 alias rzsh="src"
 #list last x amount of packages installed - "pack 25" lists last 25 packages installed.
 alias pack="expac --timefmt='%Y-%m-%d %T' '%l\t%n' | sort | tail -n"
@@ -128,6 +129,7 @@ alias youtubei="youtube-dl -F"
 alias youtubed="youtube-dl -f"
 alias sqlg="mysql -u garrett -p"
 alias noteq="sudo notepadqq --allow-root"
+alias windowsserver="remmina"
 #dev
 alias proxc="nano ~/Scripts/dev/proxy.txt"
 alias proxr="./Scripts/dev/proxy-tester.sh"

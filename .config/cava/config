@@ -105,10 +105,10 @@ bar_spacing = 1
 
 gradient = 1
 gradient_count = 4
-gradient_color_4 = "#d6ba7a"
-gradient_color_3 = "#DF6903"
-gradient_color_2 = "#CD5A05"
-gradient_color_1 = "#B46506"
+gradient_color_4 = "#aac1cf"
+gradient_color_3 = "#BDA753"
+gradient_color_2 = "#62895C"
+gradient_color_1 = "#AF6E3C"
 
 [smoothing]
 
