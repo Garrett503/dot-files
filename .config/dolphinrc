@@ -1,0 +1,51 @@
+[Baloo KEditCommentDialog]
+DP-0 HDMI-1 Height 1920x1080=255
+DP-0 HDMI-1 Width 1920x1080=274
+
+[CompactMode]
+FontWeight=50
+
+[DetailsMode]
+FontWeight=50
+
+[General]
+LockPanels=false
+Version=201
+ViewPropsTimestamp=2021,8,4,1,18,45.807
+
+[IconsMode]
+FontWeight=50
+
+[KPropertiesDialog]
+DP-0 HDMI-1 Height 1920x1080=655
+DP-0 HDMI-1 Height 2560x1440=655
+DP-0 HDMI-1 Width 1920x1080=669
+DP-0 HDMI-1 Width 2560x1440=669
+
+[MainWindow]
+DP-0 HDMI-1 Height 1440x2560=2560
+DP-0 HDMI-1 Height 1920x1080=465
+DP-0 HDMI-1 Height 2560x1440=1320
+DP-0 HDMI-1 Width 1440x2560=1440
+DP-0 HDMI-1 Width 1920x1080=885
+DP-0 HDMI-1 Width 2560x1440=1205
+DP-0 HDMI-1 XPosition 1440x2560=0
+DP-0 HDMI-1 XPosition 1920x1080=2415
+DP-0 HDMI-1 XPosition 2560x1440=1295
+DP-0 HDMI-1 YPosition 1440x2560=0
+DP-0 HDMI-1 YPosition 1920x1080=1130
+DP-0 HDMI-1 YPosition 2560x1440=60
+RestorePositionForNextInstance=false
+State=AAAA/wAAAAD9AAAAAwAAAAAAAADgAAABevwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAABXAAABSgAAABkA////+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAABXAAABegAAAGsA////AAAAAQAAALIAAAF6/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAQAAAFcAAAF6AAABJAD///8AAAADAAAHgAAAANj8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAAAAAHgAAAADIA////AAAB4QAAAXoAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+
+[Open-with settings]
+CompletionMode=1
+History=kate,goo,chrome,kde,kden
+
+[PreviewSettings]
+Plugins=ebookthumbnail,mltpreview,windowsexethumbnail,svgthumbnail,jpegthumbnail,djvuthumbnail,directorythumbnail,exrthumbnail,appimagethumbnail,cursorthumbnail,opendocumentthumbnail,audiothumbnail,windowsimagethumbnail,comicbookthumbnail,imagethumbnail,kraorathumbnail
+
+[SettingsDialog]
+DP-0 HDMI-1 Height 1920x1080=556
+DP-0 HDMI-1 Width 1920x1080=790
