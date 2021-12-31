@@ -75,8 +75,12 @@ HIST_STAMPS="mm/dd/yyyy"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-	git
+#	git
 	#zsh_reload
+themes
+transfer
+jsontools
+copyfile
 	colored-man-pages
 	zsh-autosuggestions
 	zsh-syntax-highlighting
@@ -153,6 +157,12 @@ alias dota="dot add"
 alias dots="dot status"
 #pi
 alias sshpi="ssh pi@10.0.0.192"
+#search history
+hist() {
+hs "$1"
+}
+#file system breakdown
+alias storage="gtk-launch qdirstat"
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
