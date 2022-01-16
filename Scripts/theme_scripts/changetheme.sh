@@ -2,21 +2,27 @@
 
 #random wallpaper
 wal -i ~/Wallpapers/;
+
 #update cava
 cp $HOME/.cache/wal/cava.config $HOME/.config/cava/config; 
 pkill -USR2 cava;
+
 #update xresources
 cp $HOME/.cache/wal/colors.Xresources $HOME/.Xresources;
 xrdb -merge ~/.Xresources;
+
 #live update spotify colors
 #spicetify watch --live-update &
+
 #update discord theme
-~/Scripts/theme_scripts/pywal-discord -t maindiscord
+$HOME/Scripts/theme_scripts/pywal-discord.sh -t default
+
 #update dunst colors
-~/Scripts/theme_scripts/dunst_pywal.sh;
+$HOME/Scripts/theme_scripts/dunst_pywal.sh;
+
 #theme changed notification
 sleep 1
-~/Scripts/theme_scripts/theme_change_success.sh;
+$HOME/Scripts/theme_scripts/theme_change_success.sh;
 
 ############################################################
 #IGNORE
